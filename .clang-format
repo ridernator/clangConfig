@@ -1,0 +1,91 @@
+# Set max width
+ColumnLimit: 800
+
+# Try to have one argument per line
+BreakFunctionDefinitionParameters: false
+PackParameters:
+  BinPack: AlwaysOnePerLine
+
+# Prefer & and * to be next to the type
+DerivePointerAlignment: false
+PointerAlignment: Left
+
+# Constructor initialisers
+BreakConstructorInitializers: AfterComma
+
+# Don't squeeze short methods onto one line
+AllowShortFunctionsOnASingleLine: None
+
+# Ident of 2 spaces, no tabs
+IndentWidth: 2
+UseTab: Never
+
+# Sort include files
+# TODO look at includecategories
+SortIncludes: true
+
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+  AlignCompound: false
+  AlignFunctionDeclarations: false
+  AlignFunctionPointers: false
+  PadOperators: true
+AlignConsecutiveBitFields:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+  AlignCompound: false
+  AlignFunctionDeclarations: false
+  AlignFunctionPointers: false
+  PadOperators: false
+AlignConsecutiveDeclarations:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+  AlignCompound: false
+  AlignFunctionDeclarations: true
+  AlignFunctionPointers: false
+  PadOperators: false
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+  AlignCompound: false
+  AlignFunctionDeclarations: false
+  AlignFunctionPointers: false
+  PadOperators: false
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+  AlignCaseArrows: false
+  AlignCaseColons: false
+AlignConsecutiveTableGenBreakingDAGArgColons:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+  AlignCompound: false
+  AlignFunctionDeclarations: false
+  AlignFunctionPointers: false
+  PadOperators: false
+AlignConsecutiveTableGenCondOperatorColons:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+  AlignCompound: false
+  AlignFunctionDeclarations: false
+  AlignFunctionPointers: false
+  PadOperators: false
+AlignConsecutiveTableGenDefinitionColons:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+  AlignCompound: false
+  AlignFunctionDeclarations: false
+  AlignFunctionPointers: false
+  PadOperators: false
+
+# Get the (1) space for private / public
+AccessModifierOffset: -1
